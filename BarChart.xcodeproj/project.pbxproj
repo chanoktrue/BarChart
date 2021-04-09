@@ -11,9 +11,9 @@
 		CDF69DFF261F4F33000241E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF69DFE261F4F33000241E1 /* ContentView.swift */; };
 		CDF69E01261F4F35000241E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF69E00261F4F35000241E1 /* Assets.xcassets */; };
 		CDF69E04261F4F35000241E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF69E03261F4F35000241E1 /* Preview Assets.xcassets */; };
-		CDF69E0E261F51FB000241E1 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = CDF69E0D261F51FB000241E1 /* Charts */; };
 		CDF69E11261F5212000241E1 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF69E10261F5212000241E1 /* ChartView.swift */; };
 		CDF69E14261F5228000241E1 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF69E13261F5228000241E1 /* Transactions.swift */; };
+		CDF69E4926200523000241E1 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = CDF69E4826200523000241E1 /* Charts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF69E0E261F51FB000241E1 /* Charts in Frameworks */,
+				CDF69E4926200523000241E1 /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			);
 			name = BarChart;
 			packageProductDependencies = (
-				CDF69E0D261F51FB000241E1 /* Charts */,
+				CDF69E4826200523000241E1 /* Charts */,
 			);
 			productName = chart;
 			productReference = CDF69DF9261F4F33000241E1 /* BarChart.app */;
@@ -124,7 +124,7 @@
 			);
 			mainGroup = CDF69DF0261F4F33000241E1;
 			packageReferences = (
-				CDF69E0C261F51FB000241E1 /* XCRemoteSwiftPackageReference "Charts" */,
+				CDF69E4726200523000241E1 /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = CDF69DFA261F4F33000241E1 /* Products */;
 			projectDirPath = "";
@@ -346,7 +346,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CDF69E0C261F51FB000241E1 /* XCRemoteSwiftPackageReference "Charts" */ = {
+		CDF69E4726200523000241E1 /* XCRemoteSwiftPackageReference "Charts" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/danielgindi/Charts.git";
 			requirement = {
@@ -357,9 +357,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CDF69E0D261F51FB000241E1 /* Charts */ = {
+		CDF69E4826200523000241E1 /* Charts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CDF69E0C261F51FB000241E1 /* XCRemoteSwiftPackageReference "Charts" */;
+			package = CDF69E4726200523000241E1 /* XCRemoteSwiftPackageReference "Charts" */;
 			productName = Charts;
 		};
 /* End XCSwiftPackageProductDependency section */
